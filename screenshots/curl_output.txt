@@ -1,0 +1,6 @@
+$ curl -i http://localhost:8000/health
+HTTP/1.1 200 OK
+{"status":"ok"}
+
+$ curl http://localhost:8000/api/info
+{"app":"TechAbout Docker Demo","environment":"development","hostname":"vm","python":"3.12.3","started_utc":"2026-10-19 09:22:24","uptime_seconds":4}
